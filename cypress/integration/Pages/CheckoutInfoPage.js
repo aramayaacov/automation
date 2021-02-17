@@ -13,7 +13,7 @@ class CheckoutInfoPage {
     }
 
     input_firstname(firstname) {
-        cy.get(CHECKOUTINFO.FIRSTNAME_INPUT).type(firstname)
+        cy.get(CHECKOUTINFO.FIRSTNAME_INPUT).type(firstname);
     }
 
     input_lastname(lastname) {
