@@ -11,7 +11,7 @@ const AboutTest = () => {
 
         it("check login Page and get to products Page", () => {
             loginPage.verifyUrlLogin();
-            loginPage.standard_login_input();
+            loginPage.fillUserInfoAndLogin();
             productsPage.verifyUrlHomePage();
         })
 

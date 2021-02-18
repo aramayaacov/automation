@@ -10,7 +10,7 @@ const LoginTest = () => {
 
         it("login into WebSite", () => {
             pageObject.visit_Website();
-            loginPage.standard_login_input();
+            loginPage.fillUserInfoAndLogin();
         })
 
         it("verify login", () => {
